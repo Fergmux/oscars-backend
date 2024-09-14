@@ -1,23 +1,17 @@
 {
-  "kind": "collectionType",
-  "collectionName": "posts",
+  "kind": "singleType",
+  "collectionName": "portfolios",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post"
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Content": {
-      "type": "blocks"
-    },
-    "Song": {
+    "image": {
       "allowedTypes": [
         "images",
         "files",
