@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "portfolios",
+  "collectionName": "contacts",
   "info": {
-    "singularName": "portfolio",
-    "pluralName": "portfolios",
-    "displayName": "Portfolio",
-    "description": ""
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
   },
   "options": {
     "draftAndPublish": true
@@ -13,15 +12,14 @@
   "pluginOptions": {},
   "attributes": {
     "background": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
