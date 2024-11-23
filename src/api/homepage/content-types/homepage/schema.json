@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
+    "background": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -27,14 +27,18 @@
       "type": "text"
     },
     "introductionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
